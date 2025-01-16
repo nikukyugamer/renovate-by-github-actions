@@ -16,7 +16,7 @@ permissions: write-all
 jobs:
   renovate:
     name: Renovate を実行する
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     timeout-minutes: 15
     steps:
       - name: コードをチェックアウトする
