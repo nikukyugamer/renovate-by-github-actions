@@ -17,8 +17,8 @@
   "devDependencies": {
     "@playwright/test": "^1.30.0",
     "@types/jest": "^29.4.0",
-    "@typescript-eslint/eslint-plugin": "^7.0.0",
-    "@typescript-eslint/parser": "^7.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
     "autoprefixer": "^10.4.13",
     "cypress": "^13.0.0",
     "http-server": "^14.1.1",
