@@ -73,8 +73,8 @@ importers:
         specifier: ^8.4.21
         version: 8.5.1
       postcss-nested:
-        specifier: ^6.0.0
-        version: 6.2.0(postcss@8.5.1)
+        specifier: ^7.0.0
+        version: 7.0.2(postcss@8.5.1)
       sass:
         specifier: ^1.58.0
         version: 1.83.4
@@ -2813,6 +2813,12 @@ packages:
   postcss-nested@6.2.0:
     resolution: {integrity: sha512-HQbt28KulC5AJzG+cZtj9kvKB93CFCdLvog1WFLf1D+xmMvPGlBstkpTEZfK5+AN9hfJocyBFCNiqyS48bpgzQ==}
     engines: {node: '>=12.0'}
+    peerDependencies:
+      postcss: ^8.2.14
+
+  postcss-nested@7.0.2:
+    resolution: {integrity: sha512-5osppouFc0VR9/VYzYxO03VaDa3e8F23Kfd6/9qcZTUI8P58GIYlArOET2Wq0ywSl2o2PjELhYOFI4W7l5QHKw==}
+    engines: {node: '>=18.0'}
     peerDependencies:
       postcss: ^8.2.14
 
@@ -6921,6 +6927,11 @@ snapshots:
     dependencies:
       postcss: 8.5.1
       postcss-selector-parser: 6.1.2
+
+  postcss-nested@7.0.2(postcss@8.5.1):
+    dependencies:
+      postcss: 8.5.1
+      postcss-selector-parser: 7.0.0
 
   postcss-resolve-nested-selector@0.1.6: {}
 

@@ -26,7 +26,7 @@
     "jest-environment-jsdom": "^29.4.2",
     "playwright": "^1.30.0",
     "postcss": "^8.4.21",
-    "postcss-nested": "^6.0.0",
+    "postcss-nested": "^7.0.0",
     "sass": "^1.58.0",
     "start-server-and-test": "^2.0.0",
     "stylelint": "^16.0.0",
