@@ -33,7 +33,7 @@ jobs:
         run: |
           pnpm install
       - name: Renovate を実行する
-        uses: renovatebot/github-action@0984fb80fc633b17e57f3e8b6c007fe0dc3e0d62 # v40.3.6
+        uses: renovatebot/github-action@3f10d7a25cf0aa7b37519aa771ed9143fcbb5da5 # v41.0.10
         with:
           configurationFile: renovate.json
           token: ${{ secrets.MY_PAT }}
